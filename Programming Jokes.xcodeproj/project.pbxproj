@@ -13,6 +13,7 @@
 		D9B6EB6A26B30B4F00F2BA23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B6EB6926B30B4F00F2BA23 /* Preview Assets.xcassets */; };
 		D9B6EB7526B30B4F00F2BA23 /* Programming_JokesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6EB7426B30B4F00F2BA23 /* Programming_JokesTests.swift */; };
 		D9B6EB8026B30B4F00F2BA23 /* Programming_JokesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6EB7F26B30B4F00F2BA23 /* Programming_JokesUITests.swift */; };
+		D9B6EB8E26B3152600F2BA23 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6EB8D26B3152600F2BA23 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		D9B6EB7B26B30B4F00F2BA23 /* Programming JokesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Programming JokesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B6EB7F26B30B4F00F2BA23 /* Programming_JokesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programming_JokesUITests.swift; sourceTree = "<group>"; };
 		D9B6EB8126B30B4F00F2BA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B6EB8D26B3152600F2BA23 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				D9B6EB6426B30B4C00F2BA23 /* ContentView.swift */,
 				D9B6EB6626B30B4F00F2BA23 /* Assets.xcassets */,
 				D9B6EB6B26B30B4F00F2BA23 /* Info.plist */,
+				D9B6EB8D26B3152600F2BA23 /* SwiftyJSON.swift */,
 				D9B6EB6826B30B4F00F2BA23 /* Preview Content */,
 			);
 			path = "Programming Jokes";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9B6EB8E26B3152600F2BA23 /* SwiftyJSON.swift in Sources */,
 				D9B6EB6526B30B4C00F2BA23 /* ContentView.swift in Sources */,
 				D9B6EB6326B30B4C00F2BA23 /* Programming_JokesApp.swift in Sources */,
 			);
